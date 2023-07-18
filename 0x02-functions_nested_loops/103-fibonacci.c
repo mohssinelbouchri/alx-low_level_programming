@@ -7,7 +7,7 @@
  *              Fibonacci sequence not exceed
  *              4million
  *
- * Retrun: Always 0 (Success)
+ * Return: Always 0 (Success)
 */
 
 int main(void)
