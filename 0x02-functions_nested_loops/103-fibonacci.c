@@ -3,7 +3,7 @@
 /**
  * main - Entry pont
  *
- * Description: prints the sum of even-valued
+ * Description: Prints the sum of even-valued
  *              Fibonacci sequence not exceed
  *              4million
  *
