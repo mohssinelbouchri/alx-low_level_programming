@@ -2,9 +2,9 @@
 #include <stdio.h>
 
 /**
- * islower - determines whether ascii is a delimiter
+ * isLower - determines whether ascii is a lowercase
  * @c: character
- * return: 1 if true, 0 if false
+ * Return: 1 if true, 0 if false
 */
 
 int islower(char c)
@@ -13,12 +13,12 @@ int islower(char c)
 }
 
 /**
- * isdelimiter - determines whether ascii is delimiter
+ * isDelimiter - determines whether ascii is delimiter
  * @c: character
- * return: 1 if true, 0 if false
+ * Return: 1 if true, 0 if false
 */
 
-int isdelimiter(char c)
+int isDelimiter(char c)
 {
 	int i;
 	char delimiter[] = " \t\n,.!?\"(){}";
