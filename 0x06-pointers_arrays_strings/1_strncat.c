@@ -12,12 +12,11 @@
 
 char *_strncat(char *dest, char *src, int n)
 {
-	int c, i;
-
-	c = 0;
+	int c = 0;
+	int i;
 
 	/*find the size of dest array*/
-	while (dest[c])
+	while (dest[c] != '\0')
 		c++;
 
 	/**
