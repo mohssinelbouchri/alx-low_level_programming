@@ -11,12 +11,12 @@
 
 int main(void)
 {
-	int digit = 0, digit2;
+	int digit1 = 0, digit2;
 
-	while (digit <= 9)
+	while (digit1 <= 9)
 	{
 		digit2 = 0;
-		while (digit1 != digit2 && digit1 < digit2)
+		while (digit2 <= 9)
 		{
 			if (digit1 != digit2 && digit1 < digit2)
 			{
