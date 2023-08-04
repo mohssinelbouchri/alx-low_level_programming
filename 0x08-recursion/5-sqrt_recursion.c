@@ -7,33 +7,26 @@
  * Return: int
  */
 int square(int n, int val);
+int _sqrt_recursion(int n)
 {
-	if ((val * val) == n)
-	{
-		return (val);
-	}
-	else
-	{
-		if ((val * val) > n)
-			return (-1);
-		else
-			return (_sqrt_recursion(n, val + 1));
-	}
+return (square (n, 1));
 }
 
 /**
- * _sqrt_recursion - returne the natural square root of number.
- * @n: int to find sqrt of.
- *
- * Return: squareroot of n.
- * -1 if n does not have a natural sqrt.
+ * square - find sqrt root.
+ * @n: int to find sqrt root.
+ *@val: sqrt root
+ * Return: int.
  */
 
-int _sqrt_recursion(int n)
+int square(int n, int val)
 {
 
-	if (n < 0)
-		return (-1);
-	else
-		return (_sqrt_recursion(n, 0));
+if (val * val == n)
+	return (val);
+else if (val * val < n)
+	return (square(n, val + 1));
+else
+	return (-1);
+
 }
