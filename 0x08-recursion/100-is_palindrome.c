@@ -18,12 +18,12 @@ return (n);
 }
 
 /**
- * ls_palindrome - check if a string is a palindrome
+ * is_palindrome - check if a string is a palindrome
  * @s: string to check
  * Return: 0 or 1
  */
 
-int ls_palindrome(char *s)
+int is_palindrome(char *s)
 {
 int end = last_index(s);
 
