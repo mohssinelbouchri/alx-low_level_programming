@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * moves_past_star - iterates past aasterisk
+ * move_past_star - iterates past aasterisk
  * @s2: the second string, can contain wildcard
  *
  * Return: the pointer past star
